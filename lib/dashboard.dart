@@ -15,14 +15,14 @@ class _MyWidgetState extends State<MyWidget> {
     return Scaffold(
       
       floatingActionButton: FloatingActionButton(onPressed: (){
-        count--;
+        count++;
         setState(() {
           
         });
       }),
 appBar: AppBar(
   //backgroundColor: Color.fromARGB(0, 61, 71, 213),
-  title: Text("My First App12345"),
+  title: Text("My First App"),
   backgroundColor: const Color.fromARGB(255, 82, 126, 140)
 ),
 
