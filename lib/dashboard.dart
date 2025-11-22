@@ -22,7 +22,7 @@ class _MyWidgetState extends State<MyWidget> {
       }),
 appBar: AppBar(
   //backgroundColor: Color.fromARGB(0, 61, 71, 213),
-  title: Text("My First App"),
+  title: Text("My First App12345"),
   backgroundColor: const Color.fromARGB(255, 82, 126, 140)
 ),
 
