@@ -15,7 +15,7 @@ class _MyWidgetState extends State<MyWidget> {
     return Scaffold(
       
       floatingActionButton: FloatingActionButton(onPressed: (){
-        count++;
+        count--;
         setState(() {
           
         });
